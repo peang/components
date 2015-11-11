@@ -4,7 +4,7 @@
     "keywords"    : ["yii2","UI","UX"],
     "minimum-stability" : "dev",
     "type"              : "yii2-extension",
-    
+    "version"           : "0.1.0-dev",
     "authors": [
         {
             "name": "Irvan Setiawan",
