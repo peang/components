@@ -1,0 +1,21 @@
+{
+    "name": "irvan-components",
+    "authors": [
+        "Irvan Setiawan <peang.cookie@gmail.com>"
+    ],
+    "description": "UI/UX, Assets  & Widgets",
+    "main": "",
+    "moduleType": [],
+    "license": "MIT",
+    "homepage": "irvansetiawan.web.id",
+    "dependencies" : {
+        "bootbox"   : "~4.4.0"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
