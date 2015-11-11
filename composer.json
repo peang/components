@@ -17,7 +17,7 @@
     },
     "autoload": {
       "psr-4": {
-         "ui-components\\": ""
+         "peang\\ui-components\\": ""
       }
    }
 }
