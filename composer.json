@@ -1,5 +1,5 @@
 {
-    "name"        : "irvanpeang/irvan-components",
+    "name"        : "peang/ui-components",
     "description" : "UI/UX, Assets, and Widgets",
     "keywords"    : ["yii2","UI","UX"],
     "minimum-stability" : "dev",
