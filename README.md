@@ -1,2 +1,2 @@
-# ui_components
-UI/UX Component for Reusable Purpose
+# ui-components
+Collection of Assets, Widgets, UI/UX for Yii2 for the sake of usabilitiy.
