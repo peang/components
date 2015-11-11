@@ -9,7 +9,10 @@
     "license": "MIT",
     "homepage": "irvansetiawan.web.id",
     "dependencies" : {
-        "bootbox"   : "~4.4.0"
+        "bootbox"        : "~4.4.0",
+        "font-awesome"   : "~4.4.0",
+        "magnific-popup" : "~1.0.0",
+        "select2"        : "~3.5.4"
     },
     "ignore": [
         "**/.*",
