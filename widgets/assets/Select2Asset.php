@@ -1,11 +1,8 @@
 <?php
-namespace uiComponents\assets;
+namespace peang\uiComponents\widgets\assets;
 
 use yii\web\AssetBundle;
 
-/**
- * Asset base for Alert
- */
 class Selec2Asset extends AssetBundle
 {
     public function init()
