@@ -2,7 +2,7 @@
     "name"        : "peang/ui-components",
     "description" : "UI/UX, Assets, and Widgets",
     "keywords"    : ["yii2","UI","UX"],
-    "minimum-stability" : "dev",
+
     "type"              : "yii2-extension",
     "version"           : "0.1.0-dev",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
       "psr-4": {
-         "peang\\ui\\components\\": ""
+         "peang\\ui-components\\": ""
       }
    }
 }
