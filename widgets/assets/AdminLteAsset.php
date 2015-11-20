@@ -1,5 +1,5 @@
 <?php
-namespace peang\uiComponents\widgets\assets;
+namespace peang\ui\widgets\assets;
 
 use yii\web\AssetBundle;
 
@@ -16,7 +16,7 @@ class AdminLteAsset extends AssetBundle
 
     public function init()
     {
-        $this->setSourcePath(__DIR__);
+        $this->setSourcePath('../../assets/');
 
         parent::init();
     }
