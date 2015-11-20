@@ -28,7 +28,7 @@ class AssetConverter extends Component implements AssetConverterInterface
      */
     public $commands = [
         'less' => ['css', 'lessc {from} {to} --no-color'],
-        'scss' => ['css', 'sass {from} {to}'],
+        'sass' => ['css', 'sass {from} {to}'],
         'sass' => ['css', 'sass {from} {to}'],
         'styl' => ['js', 'stylus < {from} > {to}'],
         'coffee' => ['js', 'coffee -p {from} > {to}'],
