@@ -1,5 +1,6 @@
-// Irvan Setiawan
-// peang.cookie@gmail.com
+/** 
+ * @author Irvan Setiawan <peang.cookie@gmail.com>
+**/
 
 module.exports = function(grunt) {
     grunt.initConfig({
@@ -93,21 +94,6 @@ module.exports = function(grunt) {
 					filter : 'isFile'
 				}]
 			},
-
-			//react js
-			react_js : {
-				files: [{
-					nonull: true, expand: true, flatten: true,
-					src: 'bower_components/react/react.js',
-					dest: 'assets/js/',
-					filter: 'isFile'
-				},{
-                    nonull: true, expand: true, flatten: true,
-                    src: 'bower_components/react/react-dom.js',
-                    dest: 'assets/js/',
-                    filter: 'isFile'
-                }]
-			}
 	    },
 
 	    // minified css assets
