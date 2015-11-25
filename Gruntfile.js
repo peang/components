@@ -27,18 +27,18 @@ module.exports = function(grunt) {
 	        admin_lte : {
 	        	files: [{
 	                nonull : true, expand : true, flatten : true,
-	                src    : 'bower_components/AdminLTE/dist/css/AdminLTE.css',
-	                dest   : 'assets/css/AdminLTE/',
+	                src    : 'bower_components/admin-lte/dist/css/AdminLTE.css',
+	                dest   : 'assets/css/admin-lte/',
 	                filter : 'isFile'
 	            },{
 	            	nonull : true, expand : true, flatten : true,
-	                src    : 'bower_components/AdminLTE/dist/css/skins/_all-skins.css',
-	                dest   : 'assets/css/AdminLTE/skins/',
+	                src    : 'bower_components/admin-lte/dist/css/skins/_all-skins.css',
+	                dest   : 'assets/css/admin-lte/skins/',
 	                filter : 'isFile'
 	            },{
 	            	nonull : true, expand : true, flatten : true,
-	                src    : 'bower_components/AdminLTE/dist/js/app.js',
-	                dest   : 'assets/js/AdminLTE/',
+	                src    : 'bower_components/admin-lte/dist/js/app.js',
+	                dest   : 'assets/js/admin-lte/',
 	                filter : 'isFile'
 	            }],
 	        },
