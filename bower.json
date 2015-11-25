@@ -1,0 +1,28 @@
+{
+  "name": "ui",
+  "description": "Collection of Yii2 Assets and Widgets",
+  "main": "index.js",
+  "authors": [
+    "Irvan Setiawan <peang.cookie@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "bootbox"       : "~4.4.0",
+    "font-awesome"  : "~4.4.0",
+    "magnific-popup": "~1.0.0",
+    "bootstrap-sass": "~3.3.5",
+    "admin-lte"     : "~2.0"
+  },
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

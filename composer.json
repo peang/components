@@ -1,0 +1,14 @@
+{
+    "name": "ui",
+    "description": "Collection of Yii2 Assets and Widgets",
+    "authors": [
+        {
+            "name": "Irvan Setiawan",
+            "email": "peang.cookie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    }
+}
