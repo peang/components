@@ -8,9 +8,7 @@ class AssetBundle extends YiiAssetBundle
     public $publishJs = true;
     public $publishCss = true;
 
-    public $depends = [
-        'appsindo\ui\widgets\assets\YiiAsset',
-    ];
+    public $depends = [];
 
     /**
      * Add other bundle as dependency
