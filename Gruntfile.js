@@ -12,7 +12,6 @@ module.exports = function(grunt) {
 		 * Copy package from /bower_components to assets
 		 */
 		copy : {
-
 	        // jquery - http://jquery.com/
 	        jquery : {
 	            files: [{
@@ -47,13 +46,18 @@ module.exports = function(grunt) {
 			bootstrap_sass : {
 				files : [{
 					nonull : true, expand : true, flatten : true,
-					src    : 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap/*.scss',
+					src    : 'bower_components/bootstrap-sass/assets/stylesheets/*.scss',
 					dest   : 'assets/sass/bootstrap/',
 					filter : 'isFile'
 				},{
 					nonull : true, expand : true, flatten : true,
+					src    : 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap/*.scss',
+					dest   : 'assets/sass/bootstrap/bootstrap',
+					filter : 'isFile'
+				},{
+					nonull : true, expand : true, flatten : true,
 					src    : 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss',
-					dest   : 'assets/sass/bootstrap/mixins',
+					dest   : 'assets/sass/bootstrap/bootstrap/mixins',
 					filter : 'isFile'
 				},{
 					nonull : true, expand : true, flatten : true,
@@ -72,6 +76,16 @@ module.exports = function(grunt) {
 					filter : 'isFile'
 				}]
 			},
+
+			// bootbox asset http://bootboxjs.com/
+			bootbox : {
+				files : [{
+					nonull : true, expand : true, flatten : true,
+					src    : 'bower_components/bootbox/bootbox.js',
+					dest   : 'assets/js/',
+					filter : 'isFile'
+				}]
+			}
 	    },
 
 	    /**
@@ -82,7 +96,6 @@ module.exports = function(grunt) {
                 expand : true,
                 cwd    : 'assets/css/',
                 src    : ['**/*.css','*.css', '!**/*.min.css'],
-                dest   : 'assets/css/',
                 ext    : '.min.css',
                 extDot : 'last'
             }
@@ -131,7 +144,6 @@ module.exports = function(grunt) {
                     ],
                     expand : true,
                     cwd    : 'assets/js',
-                    dest   : 'assets/js',
                     ext    : '.min.js',
                     extDot : 'last'
                 }]

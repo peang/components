@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "description": "Collection of Yii2 Assets and Widgets",
+  "description": "Collection of Open Source library & wrappers for Yii2",
   "main": "index.js",
   "authors": [
     "Irvan Setiawan <peang.cookie@gmail.com>"
@@ -15,7 +15,8 @@
     "font-awesome"  : "~4.4.0",
     "magnific-popup": "~1.0.0",
     "bootstrap-sass": "~3.3.5",
-    "admin-lte"     : "~2.0"
+    "admin-lte"     : "~2.0",
+    "slick-carousel": "~1.5.8"
   },
   "homepage": "",
   "ignore": [

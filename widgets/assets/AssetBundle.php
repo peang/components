@@ -1,5 +1,5 @@
 <?php
-namespace peang\ui\widgets\assets;
+namespace peang\components\widgets\assets;
 
 use yii\web\AssetBundle as YiiAssetBundle;
 
