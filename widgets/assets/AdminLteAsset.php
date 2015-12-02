@@ -7,7 +7,7 @@ namespace peang\ui\widgets\assets;
  * @author    Irvan Setiawan <peang.cookie@gmail.com>
  * @copyright Free
  */
-class AdminLteAsset extends AssetByundle
+class AdminLteAsset extends AssetBundle
 {
     public function init()
     {
