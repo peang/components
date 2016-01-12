@@ -14,7 +14,7 @@ class AdminLteAsset extends AssetBundle
         $this->setSourcePath(__DIR__ . '/../../assets');
         $this->setupAssets('js', ['js/admin-lte/app']);
         $this->setupAssets('css', ['css/admin-lte/skins/_all-skins']);
-        $this->setupAssets('css', ['css/admin-lte/app']);
+        $this->setupAssets('css', ['css/admin-lte/AdminLTE']);
         parent::init();
     }
 }
