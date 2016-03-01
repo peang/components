@@ -11,12 +11,13 @@
     "node"
   ],
   "dependencies": {
-    "bootbox"       : "~4.4.0",
-    "font-awesome"  : "~4.4.0",
-    "magnific-popup": "~1.0.0",
-    "bootstrap-sass": "~3.3.5",
-    "admin-lte"     : "~2.0",
-    "slick-carousel": "~1.5.8"
+    "bootbox"         : "~4.4.0",
+    "font-awesome"    : "~4.4.0",
+    "magnific-popup"  : "~1.0.0",
+    "bootstrap-sass"  : "~3.3.5",
+    "admin-lte"       : "~2.0",
+    "slick-carousel"  : "~1.5.8",
+    "jquery-loading"  : "~1.1.0"
   },
   "homepage": "",
   "ignore": [
