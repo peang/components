@@ -13,7 +13,7 @@
     },
     "autoload": {
       "psr-4": {
-         "peang\\components\\": "components\\"
+         "peang\\components\\": "peang\\components\\"
       }
    }
 }
