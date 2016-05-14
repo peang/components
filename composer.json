@@ -8,12 +8,13 @@
         }
     ],
     "minimum-stability": "dev",
+    "required-dev" :{},
     "require": {
         "yiisoft/yii2": "^2.0"
     },
     "autoload": {
       "psr-4": {
-         "peang\\components\\": "peang\\components\\"
+         "peang\\components\\": ""
       }
    }
 }
